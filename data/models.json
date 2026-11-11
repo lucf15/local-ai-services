@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "project_prefix": "io.github.lucf15",
+  "models": [
+    {
+      "id": "qwen25-15b-int8",
+      "display_name": "Qwen2.5 1.5B Instruct INT8",
+      "evaluation_role": "Text baseline",
+      "status": "candidate_unvalidated",
+      "repository": "litert-community/Qwen2.5-1.5B-Instruct",
+      "revision": "60257f9f1d00ca1f24cc5ce3b829b4139be1ca2b",
+      "source_url": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct",
+      "metadata_observed_date": "2026-11-11",
+      "upstream_license_metadata": "apache-2.0",
+      "upstream_gated": false,
+      "artifact": {
+        "filename": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+        "format": "litertlm",
+        "size_bytes": 1597922856,
+        "sha256": "c4a9b7289365ab80fe599b844b77ad253eb3c53fb0e5d963d699146a6f01255e",
+        "download_url": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct/resolve/60257f9f1d00ca1f24cc5ce3b829b4139be1ca2b/Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm"
+      },
+      "runtime": {
+        "engine": "litert-lm",
+        "minimum_gpu_version_from_model_card": null,
+        "compatibility_status": "requires_android_probe",
+        "benchmark_backends": [
+          "cpu",
+          "gpu"
+        ],
+        "portable_npu_support_claimed": false
+      },
+      "capabilities_to_evaluate": [
+        "summarize",
+        "rewrite",
+        "proofread"
+      ],
+      "validated_capabilities": [],
+      "notes": [
+        "Availability, exact size and SHA-256 verified from public HF metadata; weights not downloaded.",
+        "Runtime compatibility and Italian/English task quality still require evaluation.",
+        "Record the exact runtime and settings, including reasoning/thinking behavior."
+      ]
+    },
+    {
+      "id": "gemma4-e2b",
+      "display_name": "Gemma 4 E2B",
+      "evaluation_role": "General-purpose mobile candidate",
+      "status": "candidate_unvalidated",
+      "repository": "litert-community/gemma-4-E2B-it-litert-lm",
+      "revision": "2d74ac41a33d7da82f39f7d5720a04c68514a103",
+      "source_url": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm",
+      "metadata_observed_date": "2026-11-11",
+      "upstream_license_metadata": "apache-2.0",
+      "upstream_gated": false,
+      "artifact": {
+        "filename": "gemma-4-E2B-it.litertlm",
+        "format": "litertlm",
+        "size_bytes": 2588147712,
+        "sha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c",
+        "download_url": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/resolve/2d74ac41a33d7da82f39f7d5720a04c68514a103/gemma-4-E2B-it.litertlm"
+      },
+      "runtime": {
+        "engine": "litert-lm",
+        "minimum_gpu_version_from_model_card": null,
+        "compatibility_status": "requires_android_probe",
+        "benchmark_backends": [
+          "cpu",
+          "gpu"
+        ],
+        "portable_npu_support_claimed": false
+      },
+      "capabilities_to_evaluate": [
+        "summarize",
+        "rewrite",
+        "proofread"
+      ],
+      "validated_capabilities": [],
+      "notes": [
+        "Availability, exact size and SHA-256 verified from public HF metadata; weights not downloaded.",
+        "Runtime compatibility and Italian/English task quality still require evaluation.",
+        "Record the exact runtime and settings, including reasoning/thinking behavior."
+      ]
+    },
+    {
+      "id": "qwen3-06b-int4",
+      "display_name": "Qwen3 0.6B INT4",
+      "evaluation_role": "Lightweight candidate",
+      "status": "candidate_unvalidated",
+      "repository": "litert-community/Qwen3-0.6B",
+      "revision": "8768ea43e6d801ee0d353e5036007e6790a2ba05",
+      "source_url": "https://huggingface.co/litert-community/Qwen3-0.6B",
+      "metadata_observed_date": "2026-11-11",
+      "upstream_license_metadata": "apache-2.0",
+      "upstream_gated": false,
+      "artifact": {
+        "filename": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+        "format": "litertlm",
+        "size_bytes": 343490560,
+        "sha256": "bf1aba9ce8d963124407353c6aa4cbf72eba78db21ae133de983eac672ce83e0",
+        "download_url": "https://huggingface.co/litert-community/Qwen3-0.6B/resolve/8768ea43e6d801ee0d353e5036007e6790a2ba05/Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm"
+      },
+      "runtime": {
+        "engine": "litert-lm",
+        "minimum_gpu_version_from_model_card": "0.19.0",
+        "compatibility_status": "requires_android_probe",
+        "benchmark_backends": [
+          "cpu",
+          "gpu"
+        ],
+        "portable_npu_support_claimed": false
+      },
+      "capabilities_to_evaluate": [
+        "summarize",
+        "rewrite",
+        "proofread"
+      ],
+      "validated_capabilities": [],
+      "notes": [
+        "Availability, exact size and SHA-256 verified from public HF metadata; weights not downloaded.",
+        "Runtime compatibility and Italian/English task quality still require evaluation.",
+        "Record the exact runtime and settings, including reasoning/thinking behavior."
+      ]
+    }
+  ]
+}

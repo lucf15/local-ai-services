@@ -1,0 +1,12 @@
+<resources>
+    <color name="local_ai_window_background">#101318</color>
+    <bool name="local_ai_light_system_bars">false</bool>
+    <style name="Theme.LocalAi.Base" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/local_ai_window_background</item>
+        <item name="android:colorAccent">#A8C8FF</item>
+        <item name="android:windowLightStatusBar">@bool/local_ai_light_system_bars</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

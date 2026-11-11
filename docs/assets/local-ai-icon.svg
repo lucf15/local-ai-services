@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+<defs><linearGradient id="plate" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8eef8"/></linearGradient>
+<linearGradient id="g0" gradientUnits="userSpaceOnUse" x1="32" y1="30" x2="52" y2="53"><stop stop-color="#52D3FF"/><stop offset="1" stop-color="#2378EE"/></linearGradient>
+<linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="32" y1="30" x2="52" y2="53"><stop stop-color="#779AFF"/><stop offset="1" stop-color="#5552DE"/></linearGradient>
+<linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="32" y1="30" x2="52" y2="53"><stop stop-color="#B098FF"/><stop offset="1" stop-color="#7953E8"/></linearGradient>
+<linearGradient id="g3" gradientUnits="userSpaceOnUse" x1="32" y1="30" x2="52" y2="53"><stop stop-color="#4EDDD6"/><stop offset="1" stop-color="#248ECF"/></linearGradient>
+</defs>
+<rect width="108" height="108" rx="25" fill="url(#plate)"/>
+<g transform="translate(54 54) scale(1.5) translate(-54 -54)">
+<g transform="rotate(0 54 54)">
+<path d="M52,30 C39,30 30,39 30,52 L42,52 C48,52 52,48 52,42 Z" fill="url(#g0)"/>
+<path d="M32,47 C34,38 41,33 49,32 C40,36 36,41 35,48 Z" fill="#fff" opacity=".2"/>
+</g>
+<g transform="rotate(90 54 54)">
+<path d="M52,30 C39,30 30,39 30,52 L42,52 C48,52 52,48 52,42 Z" fill="url(#g1)"/>
+<path d="M32,47 C34,38 41,33 49,32 C40,36 36,41 35,48 Z" fill="#fff" opacity=".2"/>
+</g>
+<g transform="rotate(180 54 54)">
+<path d="M52,30 C39,30 30,39 30,52 L42,52 C48,52 52,48 52,42 Z" fill="url(#g2)"/>
+<path d="M32,47 C34,38 41,33 49,32 C40,36 36,41 35,48 Z" fill="#fff" opacity=".2"/>
+</g>
+<g transform="rotate(270 54 54)">
+<path d="M52,30 C39,30 30,39 30,52 L42,52 C48,52 52,48 52,42 Z" fill="url(#g3)"/>
+<path d="M32,47 C34,38 41,33 49,32 C40,36 36,41 35,48 Z" fill="#fff" opacity=".2"/>
+</g>
+</g>
+</svg>

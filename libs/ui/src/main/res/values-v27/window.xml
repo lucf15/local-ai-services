@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.LocalAi" parent="Theme.LocalAi.Base">
+        <item name="android:windowLightNavigationBar">@bool/local_ai_light_system_bars</item>
+    </style>
+    <style name="Theme.LocalAi.Starting" parent="Theme.LocalAi.StartingBase">
+        <item name="android:windowLightNavigationBar">@bool/local_ai_light_system_bars</item>
+    </style>
+</resources>

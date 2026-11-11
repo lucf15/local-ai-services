@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <permission-group android:name="io.github.lucf15.localai.runner.permission-group.LOCAL_AI"
+        android:label="@string/local_ai_permission_group" android:description="@string/local_ai_permission_group_description" />
+    <permission android:name="io.github.lucf15.localai.runner.permission.USE_LOCAL_AI"
+        android:permissionGroup="io.github.lucf15.localai.runner.permission-group.LOCAL_AI"
+        android:label="@string/local_ai_permission_label" android:description="@string/local_ai_permission_description"
+        android:protectionLevel="dangerous" />
+    <uses-permission android:name="io.github.lucf15.localai.runner.permission.USE_LOCAL_AI" tools:node="remove" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <queries>
+        <package android:name="io.github.lucf15.localai.runner" tools:node="remove" />
+        <intent><action android:name="io.github.lucf15.localai.CLIENT" /></intent>
+    </queries>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <application android:name=".RunnerApplication" android:label="Local AI" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.LocalAi"
+        android:allowBackup="false" android:fullBackupContent="false" android:dataExtractionRules="@xml/data_extraction_rules" android:supportsRtl="true">
+        <uses-native-library android:name="libOpenCL.so" android:required="false" />
+        <uses-native-library android:name="libvndksupport.so" android:required="false" />
+        <activity android:name=".MainActivity" android:exported="true" android:theme="@style/Theme.LocalAi.Runner.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".service.LocalAiService" android:exported="true"
+            android:permission="io.github.lucf15.localai.runner.permission.USE_LOCAL_AI" />
+        <service android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:foregroundServiceType="dataSync" tools:node="merge" />
+    </application>
+</manifest>

@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <group android:rotation="0" android:pivotX="54" android:pivotY="54">
+        <path android:pathData="M52,30 C39,30 30,39 30,52 L42,52 C48,52 52,48 52,42 Z">
+            <aapt:attr name="android:fillColor"><gradient android:startX="32" android:startY="30" android:endX="52" android:endY="53" android:startColor="#52D3FF" android:endColor="#2378EE" android:type="linear" /></aapt:attr>
+        </path>
+        <path android:fillColor="#FFFFFF" android:fillAlpha="0.20" android:pathData="M32,47 C34,38 41,33 49,32 C40,36 36,41 35,48 Z" />
+    </group>
+    <group android:rotation="90" android:pivotX="54" android:pivotY="54">
+        <path android:pathData="M52,30 C39,30 30,39 30,52 L42,52 C48,52 52,48 52,42 Z">
+            <aapt:attr name="android:fillColor"><gradient android:startX="32" android:startY="30" android:endX="52" android:endY="53" android:startColor="#779AFF" android:endColor="#5552DE" android:type="linear" /></aapt:attr>
+        </path>
+        <path android:fillColor="#FFFFFF" android:fillAlpha="0.20" android:pathData="M32,47 C34,38 41,33 49,32 C40,36 36,41 35,48 Z" />
+    </group>
+    <group android:rotation="180" android:pivotX="54" android:pivotY="54">
+        <path android:pathData="M52,30 C39,30 30,39 30,52 L42,52 C48,52 52,48 52,42 Z">
+            <aapt:attr name="android:fillColor"><gradient android:startX="32" android:startY="30" android:endX="52" android:endY="53" android:startColor="#B098FF" android:endColor="#7953E8" android:type="linear" /></aapt:attr>
+        </path>
+        <path android:fillColor="#FFFFFF" android:fillAlpha="0.20" android:pathData="M32,47 C34,38 41,33 49,32 C40,36 36,41 35,48 Z" />
+    </group>
+    <group android:rotation="270" android:pivotX="54" android:pivotY="54">
+        <path android:pathData="M52,30 C39,30 30,39 30,52 L42,52 C48,52 52,48 52,42 Z">
+            <aapt:attr name="android:fillColor"><gradient android:startX="32" android:startY="30" android:endX="52" android:endY="53" android:startColor="#4EDDD6" android:endColor="#248ECF" android:type="linear" /></aapt:attr>
+        </path>
+        <path android:fillColor="#FFFFFF" android:fillAlpha="0.20" android:pathData="M32,47 C34,38 41,33 49,32 C40,36 36,41 35,48 Z" />
+    </group>
+</vector>

@@ -1,0 +1,25 @@
+<resources>
+    <color name="local_ai_window_background">#F6F8FC</color>
+    <bool name="local_ai_light_system_bars">true</bool>
+    <style name="Theme.LocalAi.Base" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/local_ai_window_background</item>
+        <item name="android:colorAccent">#335CC5</item>
+        <item name="android:windowLightStatusBar">@bool/local_ai_light_system_bars</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.LocalAi" parent="Theme.LocalAi.Base" />
+    <style name="Theme.LocalAi.StartingBase" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/local_ai_window_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.LocalAi</item>
+        <item name="android:windowLightStatusBar">@bool/local_ai_light_system_bars</item>
+    </style>
+    <style name="Theme.LocalAi.Starting" parent="Theme.LocalAi.StartingBase" />
+    <style name="Theme.LocalAi.Runner.Starting" parent="Theme.LocalAi.Starting">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/local_ai_mark</item>
+    </style>
+    <style name="Theme.LocalAi.Reader.Starting" parent="Theme.LocalAi.Starting">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/local_sample_mark</item>
+    </style>
+</resources>
